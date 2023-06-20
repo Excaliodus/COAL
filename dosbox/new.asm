@@ -1,0 +1,6 @@
+[org 0x0100]
+mov al, 0x66
+mov bl, 0x1A
+add bl, al
+mov ax, 0x4c00 ; terminate program
+int 0x21
